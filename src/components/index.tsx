@@ -16,7 +16,7 @@ export const LoadingSpinner = ({ visible = true, message = 'Loading...' }) => {
 
   return (
     <View style={styles.loadingContainer}>
-      <ActivityIndicator size={50} color={COLORS.primary} />
+      <ActivityIndicator size="large" color={COLORS.primary} />
       <Text style={styles.loadingText}>{message}</Text>
     </View>
   );
