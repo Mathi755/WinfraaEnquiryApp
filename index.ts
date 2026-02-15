@@ -1,5 +1,7 @@
 import { registerRootComponent } from 'expo';
 
+// Switch between AppTest and App for debugging
+// import App from './AppTest';
 import App from './App';
 
 // registerRootComponent calls AppRegistry.registerComponent('main', () => App);
